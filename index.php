@@ -3,6 +3,7 @@
 include 'functions.php';
 include 'User.php';
 
+// adatbázis kapcsolat létrehozása
 $db = mysqli_connect('localhost', 'root', '', 'my_site');
 
 //////////////////////////////////////////////////////////
