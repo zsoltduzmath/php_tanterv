@@ -3,13 +3,6 @@
 include 'functions.php';
 include 'User.php';
 
-function gen()
-{
-    yield 1;
-}
-
-gen();
-
 $db = mysqli_connect('localhost', 'root', '', 'my_site');
 
 //////////////////////////////////////////////////////////

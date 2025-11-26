@@ -2,9 +2,9 @@
 
 ## Alapadatok
 
-**Műveltési terület:** informatika  
+**Műveltségi terület:** informatika  
 
-**Tantáry:** digitális kultúra  
+**Tantárgy:** digitális kultúra  
 
 **Osztály:** 11.osztály  
 
@@ -44,17 +44,19 @@ A gyorsaság másodlagos.
 - PHP futtatói környezetet telepít.
 - PHPStorm fejlesztői környezetet használva szöveges PHP kódot ír.
 - Feladatot modellez, folyamatábrán ábrázolja a program futásának lépéseit.
+- Felismeri az IP címet, meg tudja különböztetni a domain-től.
 - phpmyadmin-ban adatbázist létrehoz, tábla CREATE scriptet állományba elment.  
 - Böngészőben beírt adatot adatbázisban tárol, módosít, töröl.
 - Tisztában van a CRUD, Create, Read, Update, Delete elvvel.
 - MVC elv szerint csoportosítja megírt kódját.  
 - Felismeri az osztályt(OOP) és a megírt osztályt alkalmazza kódjában.
 - Programját teszteli, a hibákat javítja.
+- Böngészőben a `developer tools` segítségével megtalálja a weboldal betöltött alkotórészeit,
+  felismeri a fejlécet és a tartalmat.
 - A felhasználóval teljes mondatokban kommunikál, hogy a megalkotott felület felhasználóbarát legyen.
 - Elkészített programjáról leírást készít markdown formátumban és abból PDF-et generál.
 - Elkészített kódját lokálisan GIT verziókövetés alá helyezi és rendszeresen commitel.
-- Böngészőben a `developer tools` segítségével megtalálja a weboldal betöltött elkotórészeit, 
-felismeri a fejlécet és a tartalmat.
+- Repository-t hoz létre a github regisztráció után és oda commitel pushol.
 
 ## Óravázlat címek
 
@@ -62,7 +64,7 @@ felismeri a fejlécet és a tartalmat.
 2. GIT telepítés, git alapok.
 3. Hasznos weboldalak www.w3schools.com, www.php.net, www.stackoverflow.com.  
 AI-t óvatosan használni, inkább asszisztens, segéd. 
-4. www.w3schools.com példaporgramjainak kipróbálása.
+4. www.w3schools.com példaprogramjainak kipróbálása.
 5. Hálózati alapismeretek, IP cím, domain, port, kiszolgáló, request, response.
 6. Specifikáció készítés valós problémáról. Regisztráció mintaprojekt.
 7. Tervezés, brain storming a megvalósítandó oldalakról, funkciókról. Folyamatábra készítés.  
@@ -108,9 +110,9 @@ Validálás: megegyezik-e az új jelszó két bevitele?
 A gyorsabban haladóknak további feldolgozandó területek a mintaprojektben.
 - Belépés.
 - Regisztrált felhasználók kezelése belépett felhasználóknak.
-- cookie és session kezelés PHP-ban.
-- Avatar kép feltöltése felhasználókhoz.
-- Asszinkron javascript hívások szerver oldalra.
+- COOKIE és SESSION kezelés PHP-ban.
+- Avatar kép, állomány feltöltése felhasználókhoz.
+- Aszinkron javascript hívások szerver oldalra, törlés és lista frissítése.
 - A nyelvi elemek külön állományba szervezése, nyelviesítés.
 - Template kezelés, keretrendszer alkalmazása, Laravel.
 - httpd.conf
@@ -164,3 +166,7 @@ https://git-scm.com/install/windows
 A helyi tároláson túl a GIT repository-t van lehetőség távoli szerveren is tárolni biztonsági okokból.  
 `git push` - Távoli szerverre feltöltés.  
 `git pull` - Távoli szerverről letöltés.
+
+github push:  
+`git remote add origin https://github.com/zsoltduzmath/php_tanterv.git`  
+`git push -u origin master`
